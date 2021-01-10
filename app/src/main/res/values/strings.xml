@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">My EzyFood</string>
+
+    <string-array name="daftarFoods">
+        <item>Hamburger</item>
+        <item>Cheese Burger</item>
+        <item>Hotdog</item>
+        <item>Spagetti</item>
+    </string-array>
+
+    <string-array name="daftarDrinks">
+        <item>Air Mineral</item>
+        <item>Jus Apel</item>
+        <item>Jus Mangga</item>
+        <item>Jus Alpukat</item>
+    </string-array>
+
+    <string-array name="daftarSnacks">
+        <item>Roti Cokelat</item>
+        <item>Roti Srikaya</item>
+        <item>Biskuit</item>
+        <item>Kacang</item>
+    </string-array>
+
+    <string-array name="daftarTopup">
+        <item>Rp 10.000</item>
+        <item>Rp 20.000</item>
+        <item>Rp 50.000</item>
+        <item>Rp 100.000</item>
+    </string-array>
+</resources>

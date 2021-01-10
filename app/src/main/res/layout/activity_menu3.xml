@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/darker_gray">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/darker_gray"
+        android:orientation="vertical"
+        android:padding="30dp"
+        tools:context=".Menu3">
+
+        <TextView
+            android:id="@+id/judulText"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:text="EzyFood : Drinks"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/editName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp"
+            android:hint="Nama"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menu Drinks"
+            android:textColor="#0C0C0C"
+            android:textSize="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/airMineral"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Air Mineral"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/airmineral">
+        </ImageView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/jusApel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jus Apel"
+            android:textSize="20dp" />
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/jusapel">
+        </ImageView>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/jusMangga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jus Mangga"
+            android:textSize="20dp" />
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/jusmangga">
+        </ImageView>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/jusAlpukat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jus Alpukat"
+            android:textSize="20dp" />
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="35dp"
+            android:src="@drawable/jusalpukat">
+        </ImageView>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <Button
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:onClick="increment"
+                android:layout_gravity="center"
+                android:text="+" />
+
+            <TextView
+                android:id="@+id/quantityDrinks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="0"
+                android:textColor="#212121"
+                android:gravity="center"
+                android:textSize="25dp" />
+
+            <Button
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:onClick="decrement"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="-" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#D52E2E"
+            android:textSize="20dp"></TextView>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="70dp"
+            android:onClick="submitOrder"
+            android:text="Check" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40dp"
+            android:onClick="MyOrder"
+            android:text="Order" />
+    </LinearLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>
